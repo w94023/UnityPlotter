@@ -1,0 +1,16 @@
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityUI_ver1\Plotter\bin\x64\Release\Plotter.dll
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityUI_ver1\Plotter\bin\x64\Release\Plotter.pdb
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityUI_ver1\Plotter\bin\x64\Release\UnityEngine.CoreModule.dll
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityUI_ver1\Plotter\bin\x64\Release\UnityEngine.UI.dll
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityUI_ver1\Plotter\obj\x64\Release\Plotter.csproj.AssemblyReference.cache
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityUI_ver1\Plotter\obj\x64\Release\Plotter.csproj.CoreCompileInputs.cache
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityUI_ver1\Plotter\obj\x64\Release\Plotter.csproj.CopyComplete
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityUI_ver1\Plotter\obj\x64\Release\Plotter.dll
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityUI_ver1\Plotter\obj\x64\Release\Plotter.pdb
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityAddon_ver1\SourceCode\Plotter\bin\x64\Release\Plotter.dll
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityAddon_ver1\SourceCode\Plotter\bin\x64\Release\Plotter.pdb
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityAddon_ver1\SourceCode\Plotter\obj\x64\Release\Plotter.csproj.AssemblyReference.cache
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityAddon_ver1\SourceCode\Plotter\obj\x64\Release\Plotter.csproj.CoreCompileInputs.cache
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityAddon_ver1\SourceCode\Plotter\obj\x64\Release\Plotter.csproj.CopyComplete
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityAddon_ver1\SourceCode\Plotter\obj\x64\Release\Plotter.dll
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityAddon_ver1\SourceCode\Plotter\obj\x64\Release\Plotter.pdb

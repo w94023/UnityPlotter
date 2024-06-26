@@ -1,0 +1,6 @@
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityUI_ver1\Plotter\bin\Release\Plotter.dll
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityUI_ver1\Plotter\bin\Release\Plotter.pdb
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityUI_ver1\Plotter\obj\Release\Plotter.csproj.AssemblyReference.cache
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityUI_ver1\Plotter\obj\Release\Plotter.csproj.CoreCompileInputs.cache
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityUI_ver1\Plotter\obj\Release\Plotter.dll
+C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\UnityUI_ver1\Plotter\obj\Release\Plotter.pdb

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="메쉬 생성">
+      <UniqueIdentifier>{55559a51-8884-4c77-ae21-8f30f3094759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL 구조">
+      <UniqueIdentifier>{9fe0f899-00b2-4047-bcb0-76b66e53f9c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="인터페이스">
+      <UniqueIdentifier>{a4bd3eeb-98c9-4be2-9883-2a218c73d94c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="메인 클래스">
+      <UniqueIdentifier>{fd25cb21-9602-468c-832c-e6a69c7d9672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="구조체 정의">
+      <UniqueIdentifier>{b235fd83-7a9d-438c-b9d2-86711dfb8dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="데이터 관리">
+      <UniqueIdentifier>{cb3e6a8f-eded-40db-9ada-f7553075c7a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MeshGenerator.h">
+      <Filter>메쉬 생성</Filter>
+    </ClInclude>
+    <ClInclude Include="PlotDataHolder.h">
+      <Filter>데이터 관리</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>DLL 구조</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>DLL 구조</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexHelper.h">
+      <Filter>메쉬 생성</Filter>
+    </ClInclude>
+    <ClInclude Include="AxisDataHandler.h">
+      <Filter>데이터 관리</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler.h">
+      <Filter>데이터 관리</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CustomVertex.h">
+      <Filter>메쉬 생성</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomVertex.cpp">
+      <Filter>메쉬 생성</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexModifier.h">
+      <Filter>메쉬 생성</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexModifier.cpp">
+      <Filter>메쉬 생성</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshGenerator.cpp">
+      <Filter>메쉬 생성</Filter>
+    </ClCompile>
+    <ClCompile Include="PlotDataHolder.cpp">
+      <Filter>데이터 관리</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>DLL 구조</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>DLL 구조</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputLayer.cpp">
+      <Filter>인터페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="PlotHelper.h">
+      <Filter>메인 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexHelper.cpp">
+      <Filter>메쉬 생성</Filter>
+    </ClCompile>
+    <ClCompile Include="StructManager.h">
+      <Filter>구조체 정의</Filter>
+    </ClCompile>
+    <ClCompile Include="StructManager.cpp">
+      <Filter>구조체 정의</Filter>
+    </ClCompile>
+    <ClCompile Include="PlotHelper.cpp">
+      <Filter>메인 클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="PlotDataHandler.h">
+      <Filter>데이터 관리</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
