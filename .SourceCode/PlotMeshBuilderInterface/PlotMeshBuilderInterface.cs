@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using UnityEngine;
 
-namespace UnityUI
+namespace UnityPlotter
 { 
     [StructLayout(LayoutKind.Sequential)]
     public struct PlotShapeConfig
@@ -122,7 +122,7 @@ namespace UnityUI
 
         public PlotMeshBuilder(int vertexLimit, int tickLimit)
         {
-            OpenConsoleAndPrint();
+            //OpenConsoleAndPrint();
             _CPPHandle = InitializeCPPHandle(vertexLimit, tickLimit);
 
             _mainThreadContext = SynchronizationContext.Current;

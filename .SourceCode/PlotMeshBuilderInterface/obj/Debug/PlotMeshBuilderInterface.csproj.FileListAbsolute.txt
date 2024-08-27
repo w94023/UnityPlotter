@@ -1,0 +1,8 @@
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilderInterface\bin\Debug\PlotMeshBuilderInterface.dll
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilderInterface\bin\Debug\PlotMeshBuilderInterface.pdb
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilderInterface\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilderInterface\obj\Debug\PlotMeshBuilderInterface.csproj.AssemblyReference.cache
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilderInterface\obj\Debug\PlotMeshBuilderInterface.csproj.CoreCompileInputs.cache
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilderInterface\obj\Debug\PlotMeshBuilderInterface.csproj.CopyComplete
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilderInterface\obj\Debug\PlotMeshBuilderInterface.dll
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilderInterface\obj\Debug\PlotMeshBuilderInterface.pdb

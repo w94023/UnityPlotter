@@ -18,9 +18,7 @@ extern "C" {
         FILE* stream;
         errno_t err = freopen_s(&stream, "CONOUT$", "w", stdout);
 
-        if (err == 0) {
-            std::cout << "Hello from C++ Native Plugin!" << std::endl;
-        } else {
+        if (err != 0) {
             std::cerr << "Error reopening stdout." << std::endl;
         }
 

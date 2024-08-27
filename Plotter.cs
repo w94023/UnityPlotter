@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityUI;
+using UnityPlotter;
 
-namespace UnityUI
+namespace UnityPlotter
 {
     [RequireComponent(typeof(RectTransform))]
     [ExecuteInEditMode]

@@ -71,12 +71,17 @@ void PlotHelper::SetPlotShapeConfig(PlotShapeConfig config)
 	if (!_isPlotShapeConfigInitialized) {
 		_localPlotShapeConfig = _globalPlotShapeConfig;
 		_isPlotShapeConfigInitialized = true;
+
+		std::cout << "Rectsize : " << _localPlotShapeConfig.rectSize.x << "," << _localPlotShapeConfig.rectSize.y << std::endl;
+		std::cout << "rotEuler : " << _localPlotShapeConfig.rotEuler.x << "," << _localPlotShapeConfig.rotEuler.y << "," << _localPlotShapeConfig.rotEuler.z << std::endl;
 	}
 
 	bool isConfigChanged = !_localPlotShapeConfig.IsShapeNotChanged(_globalPlotShapeConfig);
 
 	if (isConfigChanged) {
 		_localPlotShapeConfig = _globalPlotShapeConfig;
+		std::cout << "Rectsize : " << _localPlotShapeConfig.rectSize.x << "," << _localPlotShapeConfig.rectSize.y << std::endl;
+		std::cout << "rotEuler : " << _localPlotShapeConfig.rotEuler.x << "," << _localPlotShapeConfig.rotEuler.y << "," << _localPlotShapeConfig.rotEuler.z << std::endl;
 		MeshBuildRequest();
 	}
 }

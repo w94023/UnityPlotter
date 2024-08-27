@@ -5,9 +5,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityUI;
+using UnityPlotter;
 
-namespace UnityUI
+namespace UnityPlotter
 {
     namespace PlotterAddon
     {
@@ -26,11 +26,6 @@ namespace UnityUI
 
             private List<CanvasRenderer> _renderers = new List<CanvasRenderer>();
             private List<Mesh>           _meshes    = new List<Mesh>();
-
-            bool _isDrawingDone = true;
-            bool _isDataSetDone = false;
-
-            int count = 0;
 
             internal MeshHandler(MonoBehaviour mono, GameObject root)
             {
@@ -92,13 +87,10 @@ namespace UnityUI
                 if (_renderers.Count == 0) return;
                 if (_renderers.Count != _meshes.Count) return;
                 for (int i = 0; i < _renderers.Count; i++) {
-                    // Debug.Log($"{i}, {_meshes[i].vertices.Length}");
                     // _renderers[i].Clear();
                     // _renderers[i].SetMaterial(_canvasMaterial, null);
                     _renderers[i].SetMesh(_meshes[i]);
                 }
-
-                _isDataSetDone = true;
             }
         }
         
@@ -125,38 +117,38 @@ namespace UnityUI
             public List<RectTransform> _textRects;
 
             // _vertices, _colors, _traingles 길이는 항상 같아야하고, 3으로 나누어 져야 함
-            private int       _vertexLimit = 666666;
-            private Vector3[] _vertices;
-            private Color[]   _colors;
-            private int[]     _triangles;
-            private int       _vertexCount = 0;
+            [SerializeField, HideInInspector] private int       _vertexLimit = 666666;
+            [SerializeField, HideInInspector] private Vector3[] _vertices;
+            [SerializeField, HideInInspector] private Color[]   _colors;
+            [SerializeField, HideInInspector] private int[]     _triangles;
+            [SerializeField, HideInInspector] private int       _vertexCount = 0;
 
-            private int       _tickLimit     = 1000;
-            private Vector3[] _textPositions;
-            private int[]     _textAxis;
-            private float[]   _textContents;
-            private int       _textCount     = 0;
+            [SerializeField, HideInInspector] private int       _tickLimit     = 1000;
+            [SerializeField, HideInInspector] private Vector3[] _textPositions;
+            [SerializeField, HideInInspector] private int[]     _textAxis;
+            [SerializeField, HideInInspector] private float[]   _textContents;
+            [SerializeField, HideInInspector] private int       _textCount     = 0;
 
-            private bool       _autoScaling; public bool  autoScaling { set { _autoScaling = value; _plotShapeConfig.autoScaling = _autoScaling ? 1 : 0; _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _autoScaling; } }
-            private Color      _axisColor;   public Color axisColor   { set { _axisColor   = value; _plotShapeConfig.axisColor   = _axisColor;           _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _axisColor;   } }
-            private float      _axisRadius;  public float axisRadius  { set { _axisRadius  = value; _plotShapeConfig.axisRadius  = _axisRadius;          _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _axisRadius;  } }
+            [SerializeField, HideInInspector] private bool  _autoScaling; public bool  autoScaling { set { _autoScaling = value; _plotShapeConfig.autoScaling = _autoScaling ? 1 : 0; _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _autoScaling; } }
+            [SerializeField, HideInInspector] private Color _axisColor;   public Color axisColor   { set { _axisColor   = value; _plotShapeConfig.axisColor   = _axisColor;           _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _axisColor;   } }
+            [SerializeField, HideInInspector] private float _axisRadius;  public float axisRadius  { set { _axisRadius  = value; _plotShapeConfig.axisRadius  = _axisRadius;          _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _axisRadius;  } }
 
-            private float _xTickSpan;  public float xTickSpan  { set { _xTickSpan  = value; _plotShapeConfig.xTickSpan  = _xTickSpan;  _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _xTickSpan;  } }
-            private float _yTickSpan;  public float yTickSpan  { set { _yTickSpan  = value; _plotShapeConfig.yTickSpan  = _yTickSpan;  _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _yTickSpan;  } }
-            private float _zTickSpan;  public float zTickSpan  { set { _zTickSpan  = value; _plotShapeConfig.zTickSpan  = _zTickSpan;  _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _zTickSpan;  } }
-            private float _tickLength; public float tickLength { set { _tickLength = value; _plotShapeConfig.tickLength = _tickLength; _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _tickLength; } }
-            private float _tickRadius; public float tickRadius { set { _tickRadius = value; _plotShapeConfig.tickRadius = _tickRadius; _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _tickRadius; } }
-            private Font  _textFont;   public Font  textFont   { set { _textFont = value; } get { return _textFont; } }
-            private int   _fontSize;   public int   fontSize   { set { _fontSize = value; } get { return _fontSize; } }
+            [SerializeField, HideInInspector] private float _xTickSpan;  public float xTickSpan  { set { _xTickSpan  = value; _plotShapeConfig.xTickSpan  = _xTickSpan;  _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _xTickSpan;  } }
+            [SerializeField, HideInInspector] private float _yTickSpan;  public float yTickSpan  { set { _yTickSpan  = value; _plotShapeConfig.yTickSpan  = _yTickSpan;  _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _yTickSpan;  } }
+            [SerializeField, HideInInspector] private float _zTickSpan;  public float zTickSpan  { set { _zTickSpan  = value; _plotShapeConfig.zTickSpan  = _zTickSpan;  _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _zTickSpan;  } }
+            [SerializeField, HideInInspector] private float _tickLength; public float tickLength { set { _tickLength = value; _plotShapeConfig.tickLength = _tickLength; _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _tickLength; } }
+            [SerializeField, HideInInspector] private float _tickRadius; public float tickRadius { set { _tickRadius = value; _plotShapeConfig.tickRadius = _tickRadius; _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _tickRadius; } }
+            [SerializeField, HideInInspector] private Font  _textFont;   public Font  textFont   { set { _textFont = value; } get { return _textFont; } }
+            [SerializeField, HideInInspector] private int   _fontSize;   public int   fontSize   { set { _fontSize = value; } get { return _fontSize; } }
 
-            private int _isRender2D; public int isRender2D { set { _isRender2D = value; _plotShapeConfig.isRender2D = _isRender2D; _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _isRender2D; } }
-            private Vector3 _origin; public Vector3 origin { set { _origin = value; _plotShapeConfig.origin = _origin; _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _origin; } }
-            private Vector2 _xLimit; public Vector2 xLimit { set { _xLimit = value; _plotShapeConfig.xLimit = _xLimit; _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _xLimit; } }
-            private Vector2 _yLimit; public Vector2 yLimit { set { _yLimit = value; _plotShapeConfig.yLimit = _yLimit; _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _yLimit; } }
-            private Vector2 _zLimit; public Vector2 zLimit { set { _zLimit = value; _plotShapeConfig.zLimit = _zLimit; _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _zLimit; } }
+            [SerializeField, HideInInspector] private int _isRender2D; public int isRender2D { set { _isRender2D = value; _plotShapeConfig.isRender2D = _isRender2D; _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _isRender2D; } }
+            [SerializeField, HideInInspector] private Vector3 _origin; public Vector3 origin { set { _origin = value; _plotShapeConfig.origin = _origin; _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _origin; } }
+            [SerializeField, HideInInspector] private Vector2 _xLimit; public Vector2 xLimit { set { _xLimit = value; _plotShapeConfig.xLimit = _xLimit; _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _xLimit; } }
+            [SerializeField, HideInInspector] private Vector2 _yLimit; public Vector2 yLimit { set { _yLimit = value; _plotShapeConfig.yLimit = _yLimit; _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _yLimit; } }
+            [SerializeField, HideInInspector] private Vector2 _zLimit; public Vector2 zLimit { set { _zLimit = value; _plotShapeConfig.zLimit = _zLimit; _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _zLimit; } }
             public  GameObject rotationHandle;
-            private float _zProjectionScale = 0.001f; 
-            public  float  zProjectionScale { set { _zProjectionScale = value; _plotShapeConfig.zProjectionScale = _zProjectionScale; _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _zProjectionScale; } }
+            [SerializeField, HideInInspector] private float _zProjectionScale = 0.001f; 
+                                              public  float  zProjectionScale { set { _zProjectionScale = value; _plotShapeConfig.zProjectionScale = _zProjectionScale; _plotHelper?.SetPlotShapeConfig(_plotShapeConfig); } get { return _zProjectionScale; } }
 
             private PlotShapeConfig _plotShapeConfig = new PlotShapeConfig();
             private PlotDataConfig  _plotDataConfig  = new PlotDataConfig();
@@ -206,6 +198,11 @@ namespace UnityUI
                     _textRects = new List<RectTransform>();
                 }
 
+                // config 적용
+                _plotShapeConfig.xLimit = _xLimit;
+                _plotShapeConfig.yLimit = _yLimit;
+                _plotShapeConfig.zLimit = _zLimit;
+
                 // Plot helper 설정
                 _plotHelper = new PlotMeshBuilder(_vertexLimit, _tickLimit);
                 _plotHelper.onDataReady += OnDataReady;
@@ -232,7 +229,6 @@ namespace UnityUI
             {
                 if (_rect == null) return;
                 _plotShapeConfig.rectSize = _rect.GetRectSize();
-                Debug.Log(_plotShapeConfig.rectSize);
                 _plotHelper?.SetPlotShapeConfig(_plotShapeConfig);
             }
 

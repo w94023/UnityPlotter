@@ -4,61 +4,61 @@
   CustomVertex.h
   dllmain.cpp
   MeshGenerator.cpp
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(17,18): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(20,33): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(23,17): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(32,15): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\AxisDataHandler.h(25,47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\AxisDataHandler.h(93,41): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\AxisDataHandler.h(99,44): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\PlotDataHandler.h(56,23): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\MeshGenerator.cpp(54,26): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(17,18): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(20,33): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(23,17): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(32,15): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\AxisDataHandler.h(25,47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\AxisDataHandler.h(93,41): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\AxisDataHandler.h(99,44): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\PlotDataHandler.h(56,23): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\MeshGenerator.cpp(54,26): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   OutputLayer.cpp
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(17,18): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(20,33): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(23,17): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(32,15): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\AxisDataHandler.h(25,47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\AxisDataHandler.h(93,41): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\AxisDataHandler.h(99,44): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\PlotDataHandler.h(56,23): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(17,18): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(20,33): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(23,17): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(32,15): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\AxisDataHandler.h(25,47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\AxisDataHandler.h(93,41): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\AxisDataHandler.h(99,44): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\PlotDataHandler.h(56,23): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   PlotDataHandler.h
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(17,18): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(20,33): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(23,17): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(32,15): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\PlotDataHandler.h(56,23): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(17,18): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(20,33): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(23,17): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(32,15): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\PlotDataHandler.h(56,23): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   PlotDataHolder.cpp
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(17,18): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(20,33): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(23,17): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(32,15): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\AxisDataHandler.h(25,47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\AxisDataHandler.h(93,41): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\AxisDataHandler.h(99,44): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\PlotDataHandler.h(56,23): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\PlotDataHolder.cpp(103,27): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(17,18): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(20,33): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(23,17): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(32,15): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\AxisDataHandler.h(25,47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\AxisDataHandler.h(93,41): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\AxisDataHandler.h(99,44): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\PlotDataHandler.h(56,23): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\PlotDataHolder.cpp(103,27): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   PlotHelper.cpp
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(17,18): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(20,33): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(23,17): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(32,15): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\AxisDataHandler.h(25,47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\AxisDataHandler.h(93,41): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\AxisDataHandler.h(99,44): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\PlotDataHandler.h(56,23): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(17,18): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(20,33): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(23,17): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(32,15): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\AxisDataHandler.h(25,47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\AxisDataHandler.h(93,41): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\AxisDataHandler.h(99,44): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\PlotDataHandler.h(56,23): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   PlotHelper.h
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(17,18): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(20,33): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(23,17): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\DataHandler.h(32,15): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\AxisDataHandler.h(25,47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\AxisDataHandler.h(93,41): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\AxisDataHandler.h(99,44): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\PlotDataHandler.h(56,23): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(17,18): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(20,33): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(23,17): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\DataHandler.h(32,15): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\AxisDataHandler.h(25,47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\AxisDataHandler.h(93,41): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\AxisDataHandler.h(99,44): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\PlotDataHandler.h(56,23): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   StructManager.cpp
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\StructManager.cpp(227,16): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\StructManager.cpp(236,18): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\StructManager.cpp(227,16): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\StructManager.cpp(236,18): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   StructManager.h
   VertexHelper.cpp
   VertexModifier.cpp
@@ -67,11 +67,11 @@ x64\Release\CustomVertex.obj : warning LNK4042: 개체가 두 번 이상 지정�
 x64\Release\PlotHelper.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
 x64\Release\StructManager.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
 x64\Release\VertexModifier.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
-     C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\x64\Release\PlotMeshBuilder.lib 라이브러리 및 C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\x64\Release\PlotMeshBuilder.exp 개체를 생성하고 있습니다.
+     C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\x64\Release\PlotMeshBuilder.lib 라이브러리 및 C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\x64\Release\PlotMeshBuilder.exp 개체를 생성하고 있습니다.
   코드를 생성하고 있습니다.
   Previous IPDB not found, fall back to full compilation.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\VertexModifier.cpp(87): warning C4715: 'AdjustPointToBoxKeepingSlope': 모든 제어 경로에서 값을 반환하지는 않습니다.
-C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\VertexModifier.cpp(176): warning C4715: 'AddPointsToBoxKeepingSlope': 모든 제어 경로에서 값을 반환하지는 않습니다.
-  All 1115 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\VertexModifier.cpp(87): warning C4715: 'AdjustPointToBoxKeepingSlope': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\VertexModifier.cpp(176): warning C4715: 'AddPointsToBoxKeepingSlope': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  All 1101 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   코드를 생성했습니다.
-  PlotterHelper.vcxproj -> C:\Users\w9402\OneDrive\바탕 화면\플러그인 프로그래밍\PlotMeshBuilder\PlotMeshBuilder_ver1\PlotMeshBuilder\x64\Release\PlotMeshBuilder.dll
+  PlotterHelper.vcxproj -> C:\Users\오세천\Desktop\GitHub\UnityPlotter\.SourceCode\PlotMeshBuilder\x64\Release\PlotMeshBuilder.dll

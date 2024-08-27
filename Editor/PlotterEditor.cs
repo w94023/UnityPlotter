@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEditor;
-using UnityUI;
+using UnityPlotter;
 
 [CustomEditor(typeof(Plotter))]
 [CanEditMultipleObjects]
