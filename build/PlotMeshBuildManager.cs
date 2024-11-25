@@ -347,7 +347,7 @@ namespace UnityPlotter
                         _triangles.Take(_vertexCount).ToArray()
                         );
 
-                    AjustTextComponents();
+                    // AjustTextComponents();
                 }
 
                 if (_isAlive) _plotHelper.GetMeshDataDone();
